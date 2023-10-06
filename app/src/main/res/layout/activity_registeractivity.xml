@@ -2,6 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp" android:gravity="center">
     <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clickworker" android:layout_gravity="center" android:layout_marginBottom="16dp"/>
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Click Worker" android:textSize="18sp" android:textStyle="bold" android:layout_gravity="center" android:layout_marginBottom="16dp"/>
-    <!--  Tombol untuk menuju halaman login  -->
-    <Button android:id="@+id/NextButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Next"/>
+    <!--  EditText untuk nama pengguna  -->
+    <EditText android:id="@+id/usernameField" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Username"/>
+    <!--  EditText untuk kata sandi  -->
+    <EditText android:id="@+id/passwordField" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Password" android:inputType="textPassword"/>
+    <!--  Tombol untuk melakukan pendaftaran  -->
+    <Button android:id="@+id/registerButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Register"/>
 </LinearLayout>
